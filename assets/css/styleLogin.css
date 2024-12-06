@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, sans-serif;
+}
+main{
+    background-color: rgba(211, 219, 218, 0.61);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.login img{
+    width: 30px;
+}
+
+.main-bg{
+    background-color: #fff;
+    padding:50px;
+    min-height:50vh;
+    border-radius: 20px;
+    box-shadow: 5px 5px rgba(0, 0, 0, 0.733);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.main-bg .botoes button{
+    border-style: none;
+    border-radius: 20px;
+    padding: 8px;
+}
+.main-bg .botoes .facebook{
+    padding: 10px;
+}
+.main-bg .botoes .facebook a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;   
+}
+.main-bg .botoes .facebook a img{
+    margin-right: 10px;
+}
+.main-bg .botoes .facebook button{
+    background-color: blue;
+    color: white;
+}
+.main-bg .botoes .google{
+    padding: 10px;
+}
+.main-bg .botoes .google a{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.main-bg .botoes .google button{
+    background-color: #fff;
+    border: solid 1px black;
+    margin-right: 10px;
+}
+.ou{
+    padding-top: 10px;
+}
+.user-info .inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.user-info .inputs .email{
+    padding-bottom: 10px;
+}
+.user-info .inputs input{
+    border-radius: 20px;
+    padding: 5px;
+    border: solid 1px rgba(0, 0, 0, 0.733);
+}
+.user-info .btn-enviar button{
+    padding:8px 30px;
+    border-radius: 20px;
+    background-color: #142a74;
+    border-style: none;
+}
+
