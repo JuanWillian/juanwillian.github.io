@@ -271,7 +271,7 @@ table .table-footer{
   min-width: 50%;
   background: none;
   cursor: pointer;
- border:solid #fff 1px;
+ border:solid #fff 2px;
  color: #fff;
  transition: all 300ms ease-in-out;
 }
