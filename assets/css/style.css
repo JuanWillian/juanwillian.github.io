@@ -52,15 +52,18 @@ header img {
 .menu {
   display: flex;
   align-items: center;
+  padding: 1.5rem 2rem;
 }
 
 .menu ul {
   display: flex;
   list-style: none;
+  
 }
 
 .menu ul li {
   margin: 0 15px;
+  
 }
 
 .menu ul li a {
@@ -71,7 +74,8 @@ header img {
 }
 
 .menu ul li a:hover {
-  color: #0a1e9183;
+  background-color: #6d636349;
+
 }
 
 .conteudo-1 {
@@ -257,10 +261,23 @@ table .table-footer{
   padding: 30px 0px;
 }
 
-.conteudo-7 .formulario input{
+.conteudo-7 .formulario .input{
   padding: 5px;
   min-width: 100%;
  
+}
+.conteudo-7 .formulario .btn-submit{
+  padding: 10px 0px ;
+  min-width: 50%;
+  background: none;
+  cursor: pointer;
+ border:solid #fff 1px;
+ color: #fff;
+ transition: all 300ms ease-in-out;
+}
+.conteudo-7 .formulario .btn-submit:hover{
+background-color: #fff;
+color: #0a1128;
 }
 
 @media (max-width: 768px) {

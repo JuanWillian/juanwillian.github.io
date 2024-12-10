@@ -16,6 +16,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&display=swap"
       rel="stylesheet"
     />
+    <link rel="shortcut icon" href="https://images.vexels.com/media/users/3/137692/isolated/preview/e425fa1fe274a2267405829771f13a13-simple-logo-geometric-polygonal.png" type="image/x-icon">
   </head>
 
   <body>
@@ -70,7 +71,7 @@
             </p>
           </div>
           <div>
-            <div class="texto">
+            <div>
               <p class="texto-p2">
                 We’ll start with some background on the Mac transition and give
                 an overview of Firefox internals that needed to know about the
@@ -350,9 +351,16 @@
             <div class="formulario">
               <form action="">
                 <label for="nome"><p>Nome</p></label>
-                <input id="nome" type="text" required placeholder="Seu nome" />
+                <input
+                  class="input"
+                  id="nome"
+                  type="text"
+                  required
+                  placeholder="Seu nome"
+                />
                 <label for="sobren"><p>Sobrenome</p></label>
                 <input
+                  class="input"
                   id="sobren"
                   type="text"
                   required
@@ -361,6 +369,7 @@
 
                 <label for="email"><p>Email</p></label>
                 <input
+                  class="input"
                   id="email"
                   type="email"
                   required
@@ -368,6 +377,7 @@
                 />
                 <label for="textarea"><p>Mensagem:</p></label>
                 <textarea name="" id="textarea"></textarea>
+                <input class="btn-submit" type="submit" value="Enviar" />
               </form>
             </div>
           </div>
