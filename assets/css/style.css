@@ -279,7 +279,7 @@ table .table-footer{
 background-color: #fff;
 color: #0a1128;
 }
-footer{
+footer div{
   color: #0a1128;
   background-color: #fff;
   display: flex;
